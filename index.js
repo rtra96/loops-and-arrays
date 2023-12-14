@@ -18,17 +18,62 @@
 // a console log that prints the array string + has "x of variable 1" and "x of variable 2"
 
 
-var vowels = ["a","e","i","o","u"]
-const inputArr = "awesome"
+// var vowels = ["a","e","i","o","u"]
+// const inputArr = "awesome"
 
-let vowelcount = 0
-let conscount = 0
+// let vowelcount = 0
+// let conscount = 0
 
-for (const char of inputArr){
-    if (vowels.includes(char)){
-        vowelcount++
-    }
-    else conscount++;
-}
+// for (const char of inputArr){
+//     if (vowels.includes(char)){
+//         vowelcount++
+//     }
+//     else conscount++;
+// }
 
-console.log(inputArr,"has",vowelcount, "vowels and", conscount, "consonants" );
+// console.log(inputArr,"has",vowelcount, "vowels and", conscount, "consonants" );
+
+
+//-------Reverse Array---------------
+// create an array for the forwards values
+//create an empty array for the backwards values
+// create a variable to manipulate
+// count through the for loop to determine the index
+
+// function reverseArray(inputArray) {
+//     var reversedArray = [];
+  
+//     for (var i = inputArray.length - 1; i >= 0; i--) {
+//       reversedArray.push(inputArray[i]);
+//     }
+  
+//     return reversedArray;
+//   }
+  
+//   // Test cases
+//   var array1 = [1, 2, 3];
+//   var array2 = [1, 3, 5, 7, 9, 11];
+//   var array3 = [20, 50, 30, 60, 200];
+//   var array4 = [1, -1, 2, -3, 5, -8, 13];
+  
+//   console.log(reverseArray(array1)); 
+//   console.log(reverseArray(array2)); 
+//   console.log(reverseArray(array3)); 
+//   console.log(reverseArray(array4)); 
+
+//------FIZZBUZZ-------
+//create a for loop that covers numbers 1-100
+//use conditionals to determine which numbers are multiples of 3 , 5 or both
+//log out the corrosponding inputs
+
+// for (var i = 1; i <= 100; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log("FizzBuzz");
+//     } else if (i % 3 === 0) {
+//       console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//       console.log("Buzz");
+//     } else {
+//       console.log(i);
+//     }
+//   }
